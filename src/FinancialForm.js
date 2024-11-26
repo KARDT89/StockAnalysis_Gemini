@@ -7,16 +7,16 @@ const API_KEY = process.env.REACT_APP_GEMINI_API;
 const FinancialForm = ({setResult}) => {
 
     const [values, setValues] = useState({
-        marketPrice:"50",
-        eps:"5",
-        bookValue:"25",
-        sales:"10",
-        annualDividends:"2",
-        previousEps:"4",
-        currentEps:"5",
-        totalDebt:"100",
-        totalEquity:"200",
-        netIncome:"30",
+        marketPrice:"",
+        eps:"",
+        bookValue:"",
+        sales:"",
+        annualDividends:"",
+        previousEps:"",
+        currentEps:"",
+        totalDebt:"",
+        totalEquity:"",
+        netIncome:"",
 
     })
 
